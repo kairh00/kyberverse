@@ -198,7 +198,7 @@ div {
   padding: 16px 24px ;
 }
 
-.card:visited {color:inherit;}
+.card:visited , a:visited {color:inherit;}
 .card:hover {background:var(--red); color:var(--light);}
 
 #stuff  {flex: 2.4;}
