@@ -148,7 +148,7 @@ img {
 .flex-container {
   display: flex;
   flex-direction: row;
-  flex-grow:1;
+
 }
 
 #main {
@@ -206,7 +206,7 @@ div {
 .text{
   flex-direction:column; 
   display:flex; 
-  flex-grow:1;}
+}
 
 #links {
   margin: var(--link-conta-margin);
