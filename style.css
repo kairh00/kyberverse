@@ -148,6 +148,7 @@ img {
 .flex-container {
   display: flex;
   flex-direction: row;
+  flex-grow:1;
 }
 
 #main {
