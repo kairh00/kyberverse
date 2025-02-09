@@ -316,7 +316,7 @@ div {
     --content-margin: 4px 0 0 0;
     --col-margin:24px 24px 8px;
     --link-conta-padding: 0;
-    --link-padding: 12px 16px;
+    --link-padding: 16px 16px;
     --link-margin: 0 8px 12px 0;
   }
 
@@ -336,6 +336,7 @@ div {
 #links {
     display: flex;
     flex-direction: row;
+  flex-grow:1;
     padding: var(--link-conta-padding);
   }
 
@@ -368,9 +369,4 @@ div {
     margin: 8px 0 0 24px;
   }
 
-  #links {
-    display:flex;
-    flex-direction:row;
-    flex-grow:1;
-  }
 }
