@@ -350,7 +350,7 @@ div {
   }
 
   #t {
-    flex-grow: 1;
+    flex-grow: 1.4;
   }
 
   #t h2, #t p {
@@ -358,7 +358,7 @@ div {
   }
 
   #random-mb button {
-    flex: 1;
+    flex-grow: 1;
     margin: 8px 8px 0 0;
   }
 }
