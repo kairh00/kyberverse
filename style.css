@@ -1,5 +1,5 @@
 @media screen and (min-width:481px){
-        :root, :root.default {
+:root, :root.default {
   --main-font: "Plus Jakarta Sans", sans-serif;
   --h1-font: 600 4em var(--main-font);
   --h2-font: 600 1.4em var(--main-font);
@@ -96,9 +96,7 @@
   --head-mask: linear-gradient(to top, #0000 36px, #000 0), radial-gradient(36px, #000 98%, #0000) 50%/68px 72px repeat space;
 }
 
-h1 {
-  font: var(--h1-font);
-}
+h1 { font: var(--h1-font);}
 
 h2 {
   font: var(--h2-font);
@@ -113,7 +111,6 @@ h3 {
 p {
   font: var(--p-font);
   margin-top:4px;
-  
 }
 
 a, button {
@@ -185,9 +182,7 @@ div {
   margin:var(--conta-margin);
 }
 
-.content h2 {
-  padding: var(--stuff-h2);
-}
+.content h2 { padding: var(--stuff-h2); }
 
 .card {
   margin:var(--card-margin);
@@ -203,11 +198,9 @@ div {
 }
 
 .card:visited {color:inherit;}
-.card:hover{background:var(--red); color:var(--light);}
+.card:hover {background:var(--red); color:var(--light);}
 
-#stuff  {
-  flex: 2.4;
-}
+#stuff  {flex: 2.4;}
         
 .text{
   flex-direction:column; 
@@ -235,12 +228,9 @@ div {
 #links a:hover {
   background: var(--link-bg-hover);
   color: var(--link-color-hover);
- 
 }
 
-#random-mb {
-  display: none;
-}
+#random-mb {display: none;}
 
 #random {
   display: flex;
@@ -286,6 +276,7 @@ div {
 }
 
 }
+
 @media screen and (max-width: 480px) {
   :root, :root.default {
     --link-padding: 12px 24px;
@@ -305,10 +296,11 @@ div {
     --link-conta-padding: 0 12px;
     --col-margin: -1px -1px;
   }
+        
   :root.neo{
-  --col-margin:0 24px;
-    --content-margin:0 16px;
---card-margin:0 0 32px;
+        --col-margin:0 24px;
+        --content-margin:0 16px;
+        --card-margin:0 0 32px;
   }
   
   :root.fun {
@@ -331,10 +323,9 @@ div {
   .flex-container {
     flex-direction: column;
   }
-  
-  #stuff .flex-container {flex-direction:row;}
+#stuff .flex-container {flex-direction:row;}
 #stuff {flex:1;}
-  #links {
+#links {
     display: flex;
     flex-direction: row;
     padding: var(--link-conta-padding);
