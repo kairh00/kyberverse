@@ -203,10 +203,7 @@ div {
 
 #stuff  {flex: 2.4;}
         
-.text{
-  flex-direction:column; 
-  display:flex; 
-}
+
 
 #links {
   margin: var(--link-conta-margin);
