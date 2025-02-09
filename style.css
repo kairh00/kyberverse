@@ -284,7 +284,7 @@ div {
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 480px) {
   :root, :root.default {
     --link-padding: 12px 24px;
     --link-conta-padding: 0;
@@ -308,6 +308,7 @@ div {
     --content-margin:0 16px;
 --card-margin:0 0 32px;
   }
+  
   :root.fun {
     --mb-mask: linear-gradient(to bottom, #0000 16px, #000 0), radial-gradient(16px, #000 98%, #0000) 50%/32px 32px repeat space;
     --mb-border-radius: 0;
@@ -325,8 +326,6 @@ div {
     margin: 0;
   }
   
-
-
   .flex-container {
     flex-direction: column;
   }
