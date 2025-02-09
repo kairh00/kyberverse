@@ -282,9 +282,9 @@ div {
 
 @media screen and (max-width: 640px) {
   :root, :root.default {
-    --link-padding: 12px 16px;
+    --link-padding: 12px 24px;
     --link-conta-padding: 0;
-    --link-margin: 0 8px 12px 0;
+    --link-margin: 0 auto 12px ;
     --mb-border-radius: 12px 12px 0 0;
     --content-margin: 4px 0 0 0;
     --card-margin:0 0 16px;
@@ -302,9 +302,9 @@ div {
         
   :root.neo{
       --card-margin:0 0 32px;
-    --link-padding: 12px 16px;
+    --link-padding: 12px 24px;
     --link-conta-padding: 0;
-    --link-margin: 0 8px 12px 0;
+    --link-margin: 0 auto 12px ;
     --mb-border-radius: 12px 12px 0 0;
     --content-margin: 4px 0 0 0;
     --col-margin: 32px 32px 12px;
@@ -317,7 +317,7 @@ div {
     --col-margin:24px 24px 8px;
     --link-conta-padding: 0;
     --link-padding: 16px 16px;
-    --link-margin: 0 8px 12px 0;
+    --link-margin: 0 auto 12px ;
   }
 
   #links a {
@@ -338,6 +338,7 @@ div {
     flex-direction: row;
   flex-grow:1;
     padding: var(--link-conta-padding);
+
   }
 
   #random {
