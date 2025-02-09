@@ -207,6 +207,10 @@ div {
 #stuff  {
   flex: 2.4;
 }
+.text{
+  flex-direction:column; 
+  display:flex; 
+  flex-grow:1;}
 
 #links {
   margin: var(--link-conta-margin);
@@ -328,8 +332,6 @@ div {
   }
   
   #stuff .flex-container {flex-direction:row;}
-
-  .text{flex-direction:column; display:flex; flex-grow:1;}
 
   #links {
     display: flex;
