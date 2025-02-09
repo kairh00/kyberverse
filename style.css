@@ -208,10 +208,11 @@ div {
 #stuff  {
   flex: 2.4;
 }
-.text{
+        
+/*.text{
   flex-direction:column; 
   display:flex; 
-  flex-grow:1;}
+  flex-grow:1;}*/
 
 #links {
   margin: var(--link-conta-margin);
