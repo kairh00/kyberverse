@@ -10,7 +10,7 @@
   --blue: #627cdd;
   --light: #fef8e2;
   --red: #da2727;
-  --head-padding: 24px;
+  --head-padding: 8px;
   --border-radius: 24px;
   --link-padding: 8px 16px 10px;
   --link-margin: 0px 0px 12px;
@@ -20,12 +20,12 @@
   --link-bg-hover: var(--blue);
   --link-color-hover: var(--light);
   --col-border: 0;
-  --col-margin: 0 12px;
+  --col-margin: 0 4px;
   --stuff-padding: 8px 20px;
   --conta-border: 1.5px solid;
   --conta-margin: 0 0px 24px;
   --conta-shadow: none;
-  --card-gap:16px;
+  --card-margin:0 16px 24px;
   --txt-shadow: none;
   --random-margin: 0 0 24px;
   --red-shadow: none;
@@ -36,13 +36,15 @@
 
 :root.neo {
   --main-font: "Manrope", sans-serif;
-  --h1-font: 600 5em/1 var(--main-font);
-  --h2-font: 400 1.6em/.8 var(--main-font);
-  --p-font: 400 1em var(--main-font);
+  --h1-font: 600 5em var(--main-font);
+  --h2-font: 400 1.4em var(--main-font);
+--a-font:400 1em var(--main-font);
+  --content-margin: 8px 24px;
+  --head-padding:24px;
   --link-background: var(--light);
   --link-color: var(--red);
   --link-bg-hover: var(--red);
-  --col-margin: 4px 24px;
+  --col-margin: 4px 12px;
   --conta-margin: 0 0 40px;
   --conta-border: none;
   --conta-shadow: 2px 8px 12px rgb(98,124,221,0.12), -1px -6px 12px rgb(195,206,244,0.15);
@@ -68,19 +70,21 @@
   --col-margin:-0.5px -1px;
   --conta-border: 1px solid;
   --conta-margin: -1px -1px -0.5px;
-  --card-gap:0;
+  --card-margin:16px;
   --random-margin: 0px;
 }
 
 :root.fun {
   --main-font: "Playwrite HR Lijeva", cursive;
   --h1-font: 3.2em var(--main-font);
+  --h2-font: 1.4em/1 var(--main-font);
   --p-font: 400 1em "Bricolage Grotesque", sans-serif;
   --a-font: 0.9em var(--main-font);
+  --content-margin: 16px 32px;
   --h1: center;
   --head-padding: 2px 20px 28px;
   --link-padding: 12px 24px 16px;
-  --col-margin: 40px 12px;
+  --col-margin: 40px 4px;
   --conta-border: 1.5px solid;
   --conta-margin: 0 0px 24px;
   --stuff-bg: var(--blue);
@@ -97,14 +101,18 @@ h1 {
 
 h2 {
   font: var(--h2-font);
+  margin-bottom:12px;
 }
 
 h3 {
   font:var(--h3-font);
+  margin-bottom:8px;
 }
 
 p {
   font: var(--p-font);
+  margin-top:4px;
+  
 }
 
 a, button {
@@ -131,6 +139,14 @@ body {
   min-height: 96px;
 }
 
+img {
+  background:black;
+  width:144px;
+  height:108px;
+  border-radius:12px;
+  border:none;
+  margin: 4px 0 0 16px;
+}
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -141,9 +157,9 @@ body {
   min-height:64vh;
 }
 
-h2, div {
-  transition-duration: 0.2s;
+div {
   transition-timing-function: ease-out;
+  transition-duration:0.2s;
 }
 
 .column {
@@ -165,29 +181,28 @@ h2, div {
 
 .content {
   padding: var(--stuff-padding);
+  margin:var(--conta-margin);
 }
 
 .content h2 {
   padding: var(--stuff-h2);
 }
-.cards {
-  grid-gap:var(--card-gap); 
-  margin-bottom:24px;
-}
+
 .card {
+  margin:var(--card-margin);
   text-decoration: none;
   display: flex;
   flex-direction: column;
   align-self: stretch;
   flex-grow: 1;
-  margin:-1px -0.5px -1px -1px;
   border: var(--conta-border);
   border-radius: var(--border-radius);
-  padding: 8px 12px ;
+  box-shadow: var(--conta-shadow);
+  padding: 16px 24px ;
 }
 
 .card:visited {color:inherit;}
-.card:hover{color:var(--light);background:var(--blue);}
+.card:hover{background:var(--red); color:var(--light);}
 
 #stuff  {
   flex: 2.4;
@@ -208,13 +223,13 @@ h2, div {
   color: var(--link-color);
   border: var(--link-border);
   box-shadow: var(--red-shadow);
-  transition-duration: .35s;
+  transition-duration: .2s;
 }
 
 #links a:hover {
   background: var(--link-bg-hover);
   color: var(--link-color-hover);
-  transition-duration: .5s;
+ 
 }
 
 #random-mb {
@@ -242,7 +257,7 @@ h2, div {
   color: var(--light);
   border: none;
   border-radius: var(--border-radius);
-  transition-duration: .35s;
+  transition-duration: .2s;
 }
 
 #random button:hover {
@@ -257,7 +272,7 @@ h2, div {
 }
 
 #footer{
- 
+ margin-top:12px;
   padding:8px;
   text-align:center;
   background:var(--blue);
@@ -271,24 +286,31 @@ h2, div {
     --link-conta-padding: 0;
     --link-margin: 0 24px 24px 0;
     --mb-border-radius: 12px 12px 0 0;
-    --content-margin: 4px 0px;
+    --content-margin: 4px 0 0 0;
+    --card-margin:0 0 16px;
+    --col-margin:0 24px;
   }
 
   :root.brutal {
     --mb-border-radius: 0;
-    --link-conta-margin: 0 -2px 24px;
+    --link-conta-margin: -0.5px -1px 24px;
     --link-margin: -1px;
     --link-padding: 8px 24px;
     --link-conta-padding: 0 12px;
     --col-margin: -1px -1px;
   }
-
+  :root.neo{
+  --col-margin:0 24px;
+    --content-margin:0 16px;
+--card-margin:0 0 32px;
+  }
   :root.fun {
     --mb-mask: linear-gradient(to bottom, #0000 16px, #000 0), radial-gradient(16px, #000 98%, #0000) 50%/32px 32px repeat space;
     --mb-border-radius: 0;
-    --col-margin: 24px 16px 0px;
+    --col-margin: 24px 32px 0px;
     --link-margin: 0 24px 0 0;
     --link-padding: 12px 24px 16px;
+    --content-margin:0;
   }
 
   #links a {
@@ -298,14 +320,16 @@ h2, div {
   body {
     margin: 0;
   }
+  
+
 
   .flex-container {
     flex-direction: column;
   }
+  
+  #stuff .flex-container {flex-direction:row;}
 
-  #stuff {
-    flex: 1;
-  }
+  .text{flex-direction:column; display:flex; flex-grow:1;}
 
   #links {
     display: flex;
