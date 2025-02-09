@@ -282,7 +282,7 @@ div {
 
 @media screen and (max-width: 640px) {
   :root, :root.default {
-    --link-padding: 12px 24px;
+    --link-padding: 12px 16px;
     --link-conta-padding: 0;
     --link-margin: 0 8px 8px 0;
     --mb-border-radius: 12px 12px 0 0;
@@ -309,7 +309,7 @@ div {
     --mb-border-radius: 0;
     --col-margin: 24px 32px 0px;
     --link-margin: 0 24px 0 0;
-    --link-padding: 12px 24px 16px;
+    --link-padding: 12px 16px 16px;
     --content-margin:0;
   }
 
