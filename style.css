@@ -154,7 +154,6 @@ img {
 
 #main {
   margin: var(--content-margin);
-  min-height:64vh;
 }
 
 div {
