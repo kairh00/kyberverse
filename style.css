@@ -278,7 +278,7 @@ div {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   :root, :root.default {
     --link-padding: 12px 24px;
     --link-conta-padding: 0;
