@@ -186,7 +186,6 @@ div {
 .content h2 { padding: var(--stuff-h2); }
 
 .card {
-  color:var(--blue);
   margin:var(--card-margin);
   text-decoration: none;
   display: flex;
@@ -199,7 +198,7 @@ div {
   padding: 16px 24px ;
 }
 
-.card:visited{color:inherit;}
+
 .card:hover {background:var(--red); color:var(--light);}
 
 #stuff  {flex: 2.4;}
@@ -207,7 +206,7 @@ div {
 .text{
   flex-direction:column; 
   display:flex;
-  flex:1;
+  flex-grow:1;
 }
 
 #links {
