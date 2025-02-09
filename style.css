@@ -118,7 +118,9 @@ a, button {
   font: var(--a-font);
   line-height: 1;
 }
-a:visited{color:inherit;}
+
+a:visited {color:inherit;}
+.text:visited{color:var(--blue);}
 body {
   font-family: var(--font);
   margin: 0px;
