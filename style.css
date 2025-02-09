@@ -1,4 +1,4 @@
-@media (min-width:481px){
+@media screen and (min-width:481px){
         :root, :root.default {
   --main-font: "Plus Jakarta Sans", sans-serif;
   --h1-font: 600 4em var(--main-font);
@@ -285,7 +285,7 @@ div {
 }
 
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   :root, :root.default {
     --link-padding: 12px 24px;
     --link-conta-padding: 0;
