@@ -284,7 +284,7 @@ div {
   :root, :root.default {
     --link-padding: 12px 24px;
     --link-conta-padding: 0;
-    --link-margin: 0 24px 24px 0;
+    --link-margin: 0 16px 16px 0;
     --mb-border-radius: 12px 12px 0 0;
     --content-margin: 4px 0 0 0;
     --card-margin:0 0 16px;
@@ -358,7 +358,7 @@ div {
   }
 
   #random-mb button {
-    flex-grow: 0;
-    margin: 8px 0 0;
+    flex: 1;
+    margin: 8px 8px 0 0;
   }
 }
