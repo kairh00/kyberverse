@@ -118,7 +118,7 @@ a, button {
   font: var(--a-font);
   line-height: 1;
 }
-
+a:visited{color:inherit;}
 body {
   font-family: var(--font);
   margin: 0px;
@@ -198,7 +198,7 @@ div {
   padding: 16px 24px ;
 }
 
-.card:visited , a:visited {color:inherit;}
+.card:visited{color:inherit;}
 .card:hover {background:var(--red); color:var(--light);}
 
 #stuff  {flex: 2.4;}
@@ -256,7 +256,7 @@ div {
 
 #random button:hover {
   background: #6388ee;
-  transition-duration: .35s;
+  transition-duration: .2s;
   transform: scale(.96, 0.96);
 }
 
