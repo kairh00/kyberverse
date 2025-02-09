@@ -307,6 +307,7 @@ div {
   :root.fun {
     --mb-mask: linear-gradient(to bottom, #0000 16px, #000 0), radial-gradient(16px, #000 98%, #0000) 50%/32px 32px repeat space;
     --mb-border-radius: 0;
+    --content-margin: 4px 0 0 0;
   }
 
   #links a {
