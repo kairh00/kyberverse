@@ -1,4 +1,4 @@
-@media (min-width:480px){
+@media (min-width:481px){
         :root, :root.default {
   --main-font: "Plus Jakarta Sans", sans-serif;
   --h1-font: 600 4em var(--main-font);
