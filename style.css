@@ -332,7 +332,7 @@ div {
   }
   
   #stuff .flex-container {flex-direction:row;}
-
+#stuff {flex:1;}
   #links {
     display: flex;
     flex-direction: row;
