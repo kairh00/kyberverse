@@ -367,4 +367,10 @@ div {
     flex-grow: 1;
     margin: 8px 0 0 8px;
   }
+
+  #links {
+    display:flex;
+    flex-direction:row;
+    flex-grow:1;
+  }
 }
