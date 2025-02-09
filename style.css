@@ -358,6 +358,6 @@ div {
 
   #random-mb button {
     flex-grow: 1;
-    margin: 8px 8px 0 0;
+    margin: 8px 0 0 8px;
   }
 }
