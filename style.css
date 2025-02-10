@@ -351,24 +351,23 @@ div {
     bottom: 0;
     margin: 0;
     flex-direction: row;
-    align-items: center;
     border-radius: var(--mb-border-radius);
     mask: var(--mb-mask);
     z-index:1;
   }
 
-  #t {
+ /* #t {
     flex-grow: 1.2;
-  }
+  }*/
 
   #t h2, #t p {
     margin: 0 0 2px;
   }
 
   #random-mb button {
-    flex-grow: 1;
-    margin: 8px 0 0 8px;
-    display:inline;
+    
+    margin: 8px 0 0 12px;
+    display:inline-block;
   }
 
 }
