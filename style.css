@@ -356,16 +356,16 @@ div {
     z-index:1;
   }
 
- /* #t {
-    flex-grow: 1.2;
-  }*/
+  #t {
+    max-width:60%;
+  }
 
   #t h2, #t p {
     margin: 0 0 2px;
   }
 
   #random-mb button {
-    
+    flex:1;
     margin: 8px 0 0 12px;
     display:inline-block;
   }
