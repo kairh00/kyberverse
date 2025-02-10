@@ -367,7 +367,8 @@ div {
   #random-mb button {
     flex:1;
     margin: 8px 0 0 12px;
-    display:inline-block;
+    display:inline;
+    align-self:center;
   }
 
 }
