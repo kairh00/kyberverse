@@ -40,7 +40,7 @@ body, html {min-width:0;}
   --main-font: "Manrope", sans-serif;
   --h1-font: 600 5em var(--main-font);
   --h2-font: 400 1.4em var(--main-font);
---a-font:400 1em var(--main-font);
+--a-font:400 0.9em var(--main-font);
   --content-margin: 8px 24px;
   --head-padding:24px;
   --link-background: var(--light);
@@ -302,12 +302,12 @@ div {
         
   :root.neo{
       --card-margin:0 0 32px;
-    --link-padding: 12px 24px;
+    --link-padding: 12px 16px;
     --link-conta-padding: 0;
     --link-margin: 0 auto 12px ;
     --mb-border-radius: 12px 12px 0 0;
     --content-margin: 4px 0 0 0;
-    --col-margin: 32px 32px 12px;
+    --col-margin: 32px 28px 12px;
   }
   
   :root.fun {
@@ -368,7 +368,7 @@ div {
   #random-mb button {
     flex-grow: 1;
     margin: 8px 0 0 8px;
-    display:block;
+    display:inline;
   }
 
 }
