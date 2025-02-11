@@ -278,7 +278,11 @@ div {
   background:var(--blue);
   color:var(--light);
 }
-
+@media screen and (max-width:980px){
+  img {
+    width: 108px;
+    height:81px;
+      }
 
 @media screen and (max-width: 640px) {
   :root, :root.default {
