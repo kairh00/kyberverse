@@ -187,6 +187,7 @@ div {
 .content h2 { padding: var(--stuff-h2); }
 
 .card {
+  color:var(--blue);
   margin:var(--card-margin);
   text-decoration: none;
   display: flex;
