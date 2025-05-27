@@ -76,7 +76,7 @@ body, html {min-width:0;}
 }
 
 :root.fun {
-  --main-font: "Playwrite HR Lijeva", cursive;
+  --main-font: "Darumadrop One", sans-serif;
   --h1-font: 3.2em var(--main-font);
   --h2-font: 1.4em/1 var(--main-font);
   --p-font: 400 1em "Bricolage Grotesque", sans-serif;
