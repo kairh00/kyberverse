@@ -3,8 +3,8 @@ body, html {min-width:0;}
 :root, :root.default {
   --main-font: "Plus Jakarta Sans", sans-serif;
   --h1-font: 600 4em var(--main-font);
-  --h2-font: 600 1.4em var(--main-font);
-  --h3-font: 600 1em var(--main-font);
+  --h2-font: 600 2em var(--main-font);
+  --h3-font: 600 1.2em var(--main-font);
   --p-font: 400 1em var(--main-font);
   --a-font: 600 0.9em var(--main-font);
   --content-margin: 4px 16px;
@@ -39,7 +39,6 @@ body, html {min-width:0;}
 :root.neo {
   --main-font: "Manrope", sans-serif;
   --h2-font: 400 1.4em var(--main-font);
---a-font:400 0.9em var(--main-font);
   --content-margin: 8px 24px;
   --head-padding:24px;
   --link-background: var(--light);
@@ -77,10 +76,10 @@ body, html {min-width:0;}
 
 :root.fun {
   --main-font: "Darumadrop One", sans-serif;
-  --h1-font: 3.2em var(--main-font);
-  --h2-font: 1.4em/1 var(--main-font);
-  --p-font: 400 1em "Plus Jakarta Sans", sans-serif;
-  --a-font: 0.9em var(--main-font);
+  --h1-font: 4em var(--main-font);
+  --h2-font: 2em/1 var(--main-font);
+  --p-font: 400 1.2em "Plus Jakarta Sans", sans-serif;
+  --a-font: 1em var(--main-font);
   --content-margin: 16px 32px;
   --h1: center;
   --head-padding: 2px 20px 28px;
