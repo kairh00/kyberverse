@@ -1,4 +1,4 @@
-const theme = ["default", "fun","neo", "brutal",];
+const theme = ["default", "fun", "brutal",];
 //var button = document.getElementsByClassName("themer");
 let i =1;
 document.documentElement.className = theme[Math.floor((Math.random() * theme.length)+1)];
