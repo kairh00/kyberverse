@@ -13,7 +13,7 @@ body, html {min-width:0;}
   --light: #fef8e2;
   --red: #da2727;
   --head-padding: 8px;
-  --about-padding:6px 16px;
+  --about-padding:6px 16px 4px ;
   --border-radius: 24px;
   --link-padding: 18px 16px 18px;
   --link-margin: 0px 0px 12px;
@@ -305,6 +305,7 @@ div {
 
 @media screen and (max-width: 640px) {
   :root, :root.default {
+    --head-padding: 16px
     --link-padding: 12px 24px;
     --link-conta-padding: 0;
     --link-margin: 0 auto 12px ;
