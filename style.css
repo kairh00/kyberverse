@@ -31,6 +31,8 @@ body, html {min-width:0;}
   --card-padding:28px 24px;
   --card-text:var(--blue);
   --card-bg:var(--light);
+  --card-hover:var(--blue);
+  --card-text-hover:var(--light);
   --txt-shadow: none;
   --random-margin: 0 0 24px;
   --red-shadow: none;
@@ -93,7 +95,7 @@ body, html {min-width:0;}
   --head-padding: 2px 20px 28px;
   --link-padding: 12px 24px 16px;
   --col-margin: 80px 24px;
-  --conta-border: 1.5px solid;
+  --conta-border: 0px;
   --conta-margin: 0 0px 24px;
   --stuff-bg: var(--blue);
   --stuff-color: var(--light);
@@ -101,6 +103,8 @@ body, html {min-width:0;}
   --card-padding:32px ;
   --card-text:var(--light);
   --card-bg:var(--red);
+  --card-hover:var(--blue);
+  --card-text-hover:var(--light);
   --fun-border-radius: 0;
   --mask: linear-gradient(#000 0 0) 50%/calc(100% - 24px) calc(100% - 24px) no-repeat, radial-gradient(farthest-side, #000 98%, #0000) 0 0/24px 24px round;
   --head-mask: linear-gradient(to top, #0000 36px, #000 0), radial-gradient(36px, #000 98%, #0000) 50%/68px 72px repeat space;
@@ -129,7 +133,7 @@ a, button {
 }
 
 a:visited {color:inherit;}
-.text:visited{color:var(--blue);}
+
 body {
   font-family: var(--font);
   margin: 0px;
@@ -212,7 +216,7 @@ div {
 }
 
 
-.card:hover {background:var(--red); color:var(--light);}
+.card:hover {background:var(--card-hover); color:var(--card-text-hover);}
 
 #stuff  {flex: 2.4;}
         
