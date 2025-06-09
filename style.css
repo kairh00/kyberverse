@@ -49,6 +49,7 @@ body, html {min-width:0;}
   --link-background: var(--light);
   --link-color: var(--red);
   --link-bg-hover: var(--red);
+  --link-padding: 16px 24px;
   --col-margin: 4px 12px;
   --conta-margin: 0 0 40px;
   --conta-border: none;
