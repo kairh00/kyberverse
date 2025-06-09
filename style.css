@@ -221,7 +221,7 @@ div {
 
 
 .card:hover {background:var(--card-hover); color:var(--card-text-hover);}
-.card:visited{color:inherit;}
+.card:visited {color:var(--card-text);}
 #stuff  {flex: 2.4;}
         
 .text{
@@ -279,7 +279,7 @@ div {
   transition-duration: .2s;
 }
 
-#random button:hover,#links:hover, {
+#random button:hover{
   background: #6388ee;
   transition-duration: .2s;
   transform: scale(.96, 0.96);
