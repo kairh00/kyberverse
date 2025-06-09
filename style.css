@@ -305,7 +305,7 @@ div {
 
 @media screen and (max-width: 640px) {
   :root, :root.default {
-    --head-padding: 16px
+
     --link-padding: 12px 24px;
     --link-conta-padding: 0;
     --link-margin: 0 auto 12px ;
