@@ -7,14 +7,14 @@ body, html {min-width:0;}
   --h3-font: 600 1.2em var(--main-font);
   --p-font: 400 1em var(--main-font);
   --a-font: 600 0.9em var(--main-font);
-  --content-margin: 4px 16px;
+  --content-margin: 4px 80px;
   --h1: center;
   --blue: #627cdd;
   --light: #fef8e2;
   --red: #da2727;
   --head-padding: 8px;
   --border-radius: 24px;
-  --link-padding: 8px 16px 10px;
+  --link-padding: 18px 16px 18px;
   --link-margin: 0px 0px 12px;
   --link-border: none;
   --link-background: var(--red);
@@ -28,6 +28,9 @@ body, html {min-width:0;}
   --conta-margin: 0 0px 24px;
   --conta-shadow: none;
   --card-margin:0 16px 24px;
+  --card-padding:28px 24px;
+  --card-text:var(--blue);
+  --card-bg:var(--light);
   --txt-shadow: none;
   --random-margin: 0 0 24px;
   --red-shadow: none;
@@ -48,6 +51,7 @@ body, html {min-width:0;}
   --conta-margin: 0 0 40px;
   --conta-border: none;
   --conta-shadow: 2px 8px 12px rgb(98,124,221,0.12), -1px -6px 12px rgb(195,206,244,0.15);
+  --card-padding:16px 24px;
   --random-margin: 0 0 24px;
   --red-shadow: 4px 6px 15px rgba(234, 153, 153, 0.2), -4px 0px 14px rgba(248, 170, 170, 0.1);
 }
@@ -71,6 +75,7 @@ body, html {min-width:0;}
   --conta-border: 1px solid;
   --conta-margin: -1px -1px -0.5px;
   --card-margin:16px;
+  --card-padding:16px 24px;
   --random-margin: 0px;
 }
 
@@ -78,18 +83,24 @@ body, html {min-width:0;}
   --main-font: "Darumadrop One", sans-serif;
   --h1-font: 4em var(--main-font);
   --h2-font: 2em/1 var(--main-font);
-  --p-font: 400 1.2em "Plus Jakarta Sans", sans-serif;
+  --h3-font: 600 1.4em var(--main-font);
+  --p-font: 400 1em "Bellota", system-ui;
   --a-font: 1em var(--main-font);
   --content-margin: 16px 32px;
   --h1: center;
+  --link-background: var(--blue);
+  --link-color: var(--light);
   --head-padding: 2px 20px 28px;
   --link-padding: 12px 24px 16px;
-  --col-margin: 40px 4px;
+  --col-margin: 80px 24px;
   --conta-border: 1.5px solid;
   --conta-margin: 0 0px 24px;
   --stuff-bg: var(--blue);
   --stuff-color: var(--light);
   --random-margin: 0 0 24px;
+  --card-padding:32px ;
+  --card-text:var(--light);
+  --card-bg:var(--red);
   --fun-border-radius: 0;
   --mask: linear-gradient(#000 0 0) 50%/calc(100% - 24px) calc(100% - 24px) no-repeat, radial-gradient(farthest-side, #000 98%, #0000) 0 0/24px 24px round;
   --head-mask: linear-gradient(to top, #0000 36px, #000 0), radial-gradient(36px, #000 98%, #0000) 50%/68px 72px repeat space;
@@ -186,7 +197,8 @@ div {
 .content h2 { padding: var(--stuff-h2); }
 
 .card {
-  color:var(--blue);
+  color:var(--card-text);
+  background:var(--card-bg);
   margin:var(--card-margin);
   text-decoration: none;
   display: flex;
@@ -196,7 +208,7 @@ div {
   border: var(--conta-border);
   border-radius: var(--border-radius);
   box-shadow: var(--conta-shadow);
-  padding: 16px 24px ;
+  padding: var(--card-padding);
 }
 
 
