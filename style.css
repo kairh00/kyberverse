@@ -13,6 +13,7 @@ body, html {min-width:0;}
   --light: #fef8e2;
   --red: #da2727;
   --head-padding: 8px;
+  --about-padding:6px 16px;
   --border-radius: 24px;
   --link-padding: 18px 16px 18px;
   --link-margin: 0px 0px 12px;
@@ -91,6 +92,7 @@ body, html {min-width:0;}
   --a-font: 1em var(--main-font);
   --content-margin: 16px 32px;
   --h1: center;
+  --about-padding:0;
   --link-background: var(--blue);
   --link-color: var(--light);
   --link-bg-hover:var(--red);
@@ -192,7 +194,7 @@ div {
   border: var(--conta-border);
   border-radius: var(--border-radius);
   box-shadow: var(--conta-shadow);
-  padding: 6px 16px;
+  padding: var(--about-padding);
 }
 
 .content {
