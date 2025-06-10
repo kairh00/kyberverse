@@ -62,7 +62,7 @@ body, html {min-width:0;}
 
 :root.brutal {
   --main-font: "Sometype Mono", monospace;
-  --h1-font: 100 4.8em/1.2em var(--main-font);
+  --h1-font: 100 5em/1.2em var(--main-font);
   --h1: left;
   --content-margin: 0px;
   --head-padding:0 24px;
@@ -85,12 +85,12 @@ body, html {min-width:0;}
 
 :root.fun {
   --main-font: "Darumadrop One", sans-serif;
-  --h1-font: 4em var(--main-font);
+  --h1-font: 4.2em var(--main-font);
   --h2-font: 2em/1 var(--main-font);
   --h3-font: 600 1.4em var(--main-font);
   --p-font: 400 1em "Bellota", system-ui;
   --a-font: 1em var(--main-font);
-  --content-margin: 16px 32px;
+  --content-margin: 0px 32px;
   --h1: center;
   --about-padding:0;
   --link-background: var(--blue);
@@ -118,7 +118,7 @@ h1 { font: var(--h1-font);}
 
 h2 {
   font: var(--h2-font);
-  margin-bottom:12px;
+  margin-bottom:2px;
 }
 
 h3 {
@@ -128,15 +128,12 @@ h3 {
 
 p {
   font: var(--p-font);
-  margin-top:4px;
 }
 
 a, button {
   font: var(--a-font);
   line-height: 1;
 }
-
-a:visited {color:inherit;}
 
 body {
   font-family: var(--font);
@@ -221,7 +218,6 @@ div {
 
 
 .card:hover {background:var(--card-hover); color:var(--card-text-hover);}
-.card:visited {color:var(--card-text);}
 #stuff  {flex: 2.4;}
         
 .text{
@@ -252,6 +248,8 @@ div {
   background: var(--link-bg-hover);
   color: var(--link-color-hover);
 }
+
+#links a:visited {color: var(--link-color);}
 
 #random-mb {display: none;}
 
@@ -385,7 +383,7 @@ div {
   #t {
     max-width:60%;
   }
-
+#t h2 {font: var(--h3-font);}
   #t h2, #t p {
     margin: 0 0 2px;
   }
