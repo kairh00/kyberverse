@@ -217,7 +217,7 @@ div {
 }
 
 
-.card:hover {background:var(--card-hover); color:var(--card-text-hover);}
+.card:hover {background:var(--card-hover); color:var(--card-text-hover); transition-duration: .2s; }
 #stuff  {flex: 2.4;}
         
 .text{
@@ -248,8 +248,6 @@ div {
   background: var(--link-bg-hover);
   color: var(--link-color-hover);
 }
-
-#links a:visited {color: var(--link-color);}
 
 #random-mb {display: none;}
 
@@ -306,7 +304,7 @@ div {
 
     --link-padding: 12px 24px;
     --link-conta-padding: 0;
-    --link-margin: 0 auto 12px ;
+    --link-margin: 0 4px 12px ;
     --mb-border-radius: 12px 12px 0 0;
     --content-margin: 4px 0 0 0;
     --card-margin:0 0 16px;
@@ -328,7 +326,7 @@ div {
       --card-margin:0 0 32px;
     --link-padding: 12px 16px;
     --link-conta-padding: 0;
-    --link-margin: 0 auto 12px ;
+    --link-margin: 0 4px 12px ;
     --mb-border-radius: 12px 12px 0 0;
     --content-margin: 4px 0 0 0;
     --col-margin: 32px 28px 12px;
@@ -341,11 +339,13 @@ div {
     --col-margin:24px 24px 8px;
     --link-conta-padding: 0;
     --link-padding: 16px 16px;
-    --link-margin: 0 auto 12px ;
+    --link-margin: 0 4px 12px ;
   }
 
   #links a {
     margin: var(--link-margin);
+    flex:1;
+    text-align: center;
   }
 
   body {
