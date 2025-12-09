@@ -9,9 +9,9 @@ body, html {min-width:0;}
   --a-font: 600 0.9em var(--main-font);
   --content-margin: 4px 80px;
   --h1: center;
-  --blue: #627cdd;
-  --light: #fef8e2;
-  --red: #da2727;
+  --blue: #2468ab;
+  --light: #FFFCE9;
+  --red: #F05151;
   --head-padding: 8px;
   --about-padding:6px 16px 4px ;
   --border-radius: 24px;
@@ -70,7 +70,7 @@ body, html {min-width:0;}
   --link-padding: 8px;
   --link-conta-margin: -1.5px -0px -1.5px -0.5px;
   --link-margin: -0.5px;
-  --link-border: #da2727 1px solid;
+  --link-border: #F05151 1px solid;
   --link-background: var(--light);
   --link-color: var(--red);
   --link-bg-hover: var(--red);
