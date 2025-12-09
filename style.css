@@ -78,7 +78,7 @@ body, html {min-width:0;}
   --col-margin:-0.5px -1px;
   --conta-border: 1px solid;
   --conta-margin: -1px -1px -0.5px;
-  --card-margin:16px;
+  --card-margin:-1px;
   --card-padding:16px 24px;
   --random-margin: 0px;
 }
@@ -277,7 +277,7 @@ div {
 }
 
 #random button:hover{
-  background: #6388ee;
+  background: #0683FF;
   transition-duration: .2s;
   transform: scale(.96, 0.96);
 }
