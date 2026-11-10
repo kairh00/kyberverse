@@ -11,7 +11,7 @@ body, html {min-width:0;}
   --h1: center;
   --blue: #0003d9;
   --light: #fefceb;
-  --red: #f05151;
+  --red: #FA8EC3;
   --head-padding: 8px;
   --about-padding:6px 16px 4px ;
   --border-radius: 24px;
@@ -70,7 +70,7 @@ body, html {min-width:0;}
   --link-padding: 8px;
   --link-conta-margin: -1.5px -0px -1.5px -0.5px;
   --link-margin: -0.5px;
-  --link-border: #f05151 1px solid;
+  --link-border: #FA8EC3 1px solid;
   --link-background: var(--light);
   --link-color: var(--red);
   --link-bg-hover: var(--red);
